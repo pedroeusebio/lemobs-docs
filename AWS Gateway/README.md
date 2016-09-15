@@ -18,3 +18,9 @@ To prepare data for upload to Amazon S3, your gateway also stores incoming data 
 
 You can take incremental backups, called _snapshots_, of your storage volumes. The gateway stores these snapshots in Amazon S3 as Amazon EBS snapshots. When you take a new snapshot, only the data that has changed since your last snapshot is stored. You can initiate snapshots on a scheduled or one-time basis. When you delete a snapshot, only the data not needed for any other snapshot is removed.
 
+### SetUp
+
+O link abaixo levará a plataforma da AWS, onde contém todas as informações necessárias para configurar o serviço. Além disso, possui um passo-a-passo bem detalhado para que o serviço contratado seja o ideal para a aplicação.
+
+link :  [http:\/\/docs.aws.amazon.com\/pt\_br\/storagegateway\/latest\/userguide\/GettingStarted-common.html](http://docs.aws.amazon.com/pt_br/storagegateway/latest/userguide/GettingStarted-common.html)
+
